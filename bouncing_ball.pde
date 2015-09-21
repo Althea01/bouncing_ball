@@ -74,19 +74,19 @@ void mousePressed ()
 
 void keyPressed ()
 {
-  if (keyCode == LEFT)
+  if (keyCode == 'A')
   {
     xAcel -= 0.01;
   }
-  else if (keyCode == RIGHT)
+  else if (keyCode == 'D')
   {
     xAcel += 0.01;
   }
-  else if (keyCode == UP)
+  else if (keyCode == 'W')
   {
     yAcel -= 0.01;
   }
-  else if (keyCode == DOWN)
+  else if (keyCode == 'S')
   {
     yAcel += 0.01;
   }
